@@ -1,0 +1,69 @@
+# 忽略构建输出目录
+build/
+dist/
+
+# 忽略依赖包目录
+node_modules/
+
+# 忽略测试生成的覆盖率报告
+coverage/
+
+# 忽略临时文件和编辑器备份文件
+*.log
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# 忽略版本控制系统文件
+.git/
+.gitignore
+.gitattributes
+
+# 忽略 IDE 和编辑器相关文件
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+*.idea/
+.DS_Store
+
+# 忽略编译后的文件和缓存
+*.min.js
+*.map
+
+# 忽略特定类型的文件
+*.min.css
+*.min.html
+
+# 忽略测试文件（如果不需要对测试文件进行格式化）
+__tests__/
+test/
+tests/
+
+# 忽略自动生成的文件
+generated/
+auto_generated/
+
+# 忽略图片、字体等非代码文件
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.woff
+*.woff2
+*.eot
+*.ttf
+*.otf
+
+# 忽略其他二进制文件
+*.zip
+*.tar.gz
+*.pdf
+
+# 忽略文档文件
+docs/
+README.md
+CHANGELOG.md
+LICENSE
